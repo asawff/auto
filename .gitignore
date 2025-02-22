@@ -1,0 +1,14 @@
+.idea/
+log/
+save/
+venv
+test*
+__pycache__/
+statistic_base*
+csfile/ok_orders/
+csfile/.DS_Store
+tmp*
+
+
+
+

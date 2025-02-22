@@ -1,0 +1,24 @@
+sim = true
+use_save_init = false
+
+msg_url = "https://oapi.dingtalk.com/robot/send?access_token=2fbf9b3d7e0bb6b911babd49cba42193666bf54e1a8be8d9da14be82eb4fa6e8"
+
+[btcusdt]
+    save_file = "./csfile/btc.save.json"
+[ethusdt]
+    save_file = "./csfile/eth.save.json"
+
+[simorders]
+    use_usdt = 1
+    duo_type = 0
+    kong_type = 1
+
+[okorders]
+    use_usdt = 1000
+    duo_type = 2
+    kong_type = 3
+    save_dir = "./csfile/ok_orders/"
+
+[stgs]
+    scale = "1day"
+
